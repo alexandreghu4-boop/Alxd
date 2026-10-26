@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dashboard de insights e planejamento de conteúdo da G Prods.">
+  <title>G Prods — Dashboard Instagram</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="meta-theme.css">
+  <link rel="stylesheet" href="dashboard-theme.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#"><span class="brand-mark">G</span><span>G PRODS<small>STUDIO</small></span></a>
+    <nav aria-label="Menu principal">
+      <a class="nav-link active" href="#visao-geral">▦ <span>Visão geral</span></a>
+      <a class="nav-link" href="#conteudos">◉ <span>Conteúdos</span></a>
+      <a class="nav-link" href="#calendario">□ <span>Calendário</span></a>
+      <a class="nav-link" href="#insights">⌁ <span>Insights</span></a>
+      <a class="nav-link" href="#conteudos">▤ <span>Biblioteca</span></a>
+      <a class="nav-link" href="#relatorios">▥ <span>Relatórios</span></a>
+    </nav>
+    <div class="sidebar-bottom"><button class="account"><span class="avatar">G</span><span><strong>@gprods</strong><small>Conta conectada</small></span><span>⌄</span></button></div>
+  </aside>
+
+  <main class="main" id="visao-geral">
+    <header class="topbar"><div><p class="eyebrow">G PRODS / CENTRAL DE CONTEÚDO</p><h1>Visão geral<span>.</span></h1><small class="top-subtitle">Acompanhe sua presença no Instagram e organize o próximo conteúdo.</small></div><div class="top-actions"><button class="period">Outubro 2026 <span>⌄</span></button><button class="icon-btn" aria-label="Notificações">♢</button><button class="outline">⚙ Configurações</button><button class="primary" id="new-content">+ Novo conteúdo</button></div></header>
+
+    <section class="connection" aria-label="Status da conta"><span class="status-dot"></span><span><strong>Instagram conectado</strong><small>Dados atualizados há 12 minutos</small></span><button class="text-button">Atualizar dados</button></section>
+
+    <section class="metrics" id="insights" aria-label="Principais métricas">
+      <article class="metric-card"><div class="metric-head"><span>Alcance</span><span class="metric-icon purple">◉</span></div><strong>24.892</strong><p class="positive">↗ 18,4% <small>vs. período anterior</small></p></article>
+      <article class="metric-card"><div class="metric-head"><span>Engajamento</span><span class="metric-icon orange">♡</span></div><strong>8,7%</strong><p class="positive">↗ 2,1% <small>vs. período anterior</small></p></article>
+      <article class="metric-card"><div class="metric-head"><span>Novos seguidores</span><span class="metric-icon pink">✦</span></div><strong>+386</strong><p class="positive">↗ 12,8% <small>vs. período anterior</small></p></article>
+      <article class="metric-card"><div class="metric-head"><span>Conteúdos publicados</span><span class="metric-icon blue">▣</span></div><strong>18</strong><p class="neutral">6 Reels · 12 Posts</p></article>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="panel chart-panel"><div class="panel-heading"><div><p class="eyebrow">DESEMPENHO</p><h2>Alcance e engajamento</h2></div><div class="legend"><span><i class="line purple-line"></i>Alcance</span><span><i class="line orange-line"></i>Engajamento</span></div></div><div class="chart"><div class="y-labels"><span>30k</span><span>20k</span><span>10k</span><span>0</span></div><div class="chart-area"><div class="grid-lines"><i></i><i></i><i></i><i></i></div><svg viewBox="0 0 760 240" preserveAspectRatio="none" aria-label="Gráfico de alcance e engajamento"><defs><linearGradient id="fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7b61ff" stop-opacity=".26"/><stop offset="1" stop-color="#7b61ff" stop-opacity="0"/></linearGradient></defs><path class="area" d="M0 190 C60 178 70 125 130 150 S200 140 250 102 S320 145 380 102 S450 90 500 105 S570 45 630 65 S700 48 760 25 V240 H0Z"/><path class="chart-line purple-stroke" d="M0 190 C60 178 70 125 130 150 S200 140 250 102 S320 145 380 102 S450 90 500 105 S570 45 630 65 S700 48 760 25"/><path class="chart-line orange-stroke" d="M0 210 C60 200 80 175 130 188 S205 170 250 185 S325 130 380 160 S450 145 500 150 S570 120 630 130 S700 100 760 108"/></svg><div class="x-labels"><span>21 set</span><span>28 set</span><span>05 out</span><span>12 out</span><span>20 out</span></div></div></div></article>
+
+      <article class="panel quick-panel"><div class="panel-heading"><div><p class="eyebrow">PRÓXIMOS PASSOS</p><h2>Agenda rápida</h2></div><a href="#calendario">Ver calendário →</a></div><div class="schedule-item"><span class="date-box"><b>22</b><small>OUT</small></span><span><strong>Reel — Bastidores Favoritos</strong><small>Instagram · 19:30</small></span><span class="scheduled">Agendado</span></div><div class="schedule-item"><span class="date-box"><b>24</b><small>OUT</small></span><span><strong>Carrossel — Nova coleção</strong><small>Instagram · 12:00</small></span><span class="draft">Rascunho</span></div><button class="outline full" id="quick-schedule">+ Agendar publicação</button></article>
+    </section>
+
+    <section class="dashboard-grid lower" id="conteudos">
+      <article class="panel"><div class="panel-heading"><div><p class="eyebrow">CONTEÚDO</p><h2>Melhores publicações</h2></div><a href="#conteudos">Ver todos →</a></div><div class="content-list"><div class="content-row"><div class="thumb thumb-one"></div><span><strong>Reel — Ensaio urbano</strong><small>Publicado há 3 dias</small></span><span class="content-stat">♡ 1.284 <small>curtidas</small></span><span class="content-stat">◉ 12,4k <small>alcance</small></span></div><div class="content-row"><div class="thumb thumb-two"></div><span><strong>Favoritos Burguer</strong><small>Publicado há 8 dias</small></span><span class="content-stat">♡ 847 <small>curtidas</small></span><span class="content-stat">◉ 8,9k <small>alcance</small></span></div><div class="content-row"><div class="thumb thumb-three"></div><span><strong>Bastidores de produção</strong><small>Publicado há 11 dias</small></span><span class="content-stat">♡ 632 <small>curtidas</small></span><span class="content-stat">◉ 6,7k <small>alcance</small></span></div></div></article>
+      <article class="panel audience"><div class="panel-heading"><div><p class="eyebrow">AUDIÊNCIA</p><h2>Quem te acompanha</h2></div><a href="#insights">Detalhes →</a></div><div class="audience-number"><strong>68%</strong><span>do seu público está<br>entre 18 e 34 anos</span></div><div class="bar"><i style="width:68%"></i></div><div class="audience-split"><span>Mulheres <b>54%</b></span><span>Homens <b>46%</b></span></div><p class="location">Principal localização <strong>Suzano, SP</strong></p></article>
+    </section>
+
+    <section class="panel report-strip" id="relatorios"><div><p class="eyebrow">RELATÓRIOS</p><h2>Seu próximo relatório está pronto</h2><p>Resumo de alcance, engajamento, publicações e crescimento da conta.</p></div><button class="outline" id="download-report">Baixar relatório PDF →</button></section>
+
+    <section class="calendar panel" id="calendario"><div class="panel-heading"><div><p class="eyebrow">PLANEJAMENTO</p><h2>Calendário de conteúdo</h2></div><div class="calendar-actions"><button class="outline">‹</button><strong>Outubro 2026</strong><button class="outline">›</button><button class="primary" id="calendar-new">+ Novo conteúdo</button></div></div><div class="week"><span>SEG</span><span>TER</span><span>QUA</span><span>QUI</span><span>SEX</span><span>SÁB</span><span>DOM</span></div><div class="calendar-grid" id="calendar-grid"></div></section>
+    <footer>G PRODS STUDIO <span>·</span> Dashboard de conteúdo <span>·</span> Protótipo pronto para integração com a Meta API</footer>
+  </main>
+  <div class="toast" id="toast" role="status">Em breve: formulário de agendamento.</div>
+  <script src="app.js"></script>
+</body>
+</html>
